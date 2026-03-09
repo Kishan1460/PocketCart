@@ -15,7 +15,6 @@ function Header({ onSearch }) {
   const [searchQuery, setSearchQuery] = useState('')
   const inputRef = useRef(null)
 
-  // Auto-focus input when search opens
   useEffect(() => {
     if (searchOpen && inputRef.current) {
       inputRef.current.focus()
@@ -29,13 +28,13 @@ function Header({ onSearch }) {
   const handleSearchClose = () => {
     setSearchOpen(false)
     setSearchQuery('')
-    if (onSearch) onSearch('') // revert to all products
+    if (onSearch) onSearch('') 
   }
 
   const handleSearchChange = (e) => {
     const value = e.target.value
     setSearchQuery(value)
-    if (onSearch) onSearch(value) // live filter as you type
+    if (onSearch) onSearch(value) 
   }
 
   return (

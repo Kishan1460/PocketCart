@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 
 function CategoryFilter({ onCategorySelect }) {
   const categories = useSelector(state => state.products.categories)
-  const [active, setActive] = useState('') // '' means "All"
+  const [active, setActive] = useState('') 
 
   const handleClick = (category) => {
     setActive(category)

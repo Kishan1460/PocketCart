@@ -59,7 +59,6 @@ function FAQSection() {
                   : 'border-gray-200 hover:border-blue-200'
               }`}
             >
-              {/* Question button */}
               <button
                 onClick={() => toggle(index)}
                 className={`w-full flex items-center justify-between px-6 py-4 text-left transition-colors duration-200 ${
@@ -76,7 +75,6 @@ function FAQSection() {
                 </span>
               </button>
 
-              {/* Answer -- animated with max-height trick */}
               <div
                 className={`overflow-hidden transition-all duration-300 ease-in-out ${
                   openIndex === index ? 'max-h-48 opacity-100' : 'max-h-0 opacity-0'
