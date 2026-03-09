@@ -38,7 +38,7 @@ A e-commerce web application built with React, Redux Toolkit, and Tailwind CSS. 
 
 ```bash
 # Clone the repository
-git clone https://github.com/Kishan1460/E-commerce-website.git
+git clone https://github.com/Kishan1460/PocketCart.git
 
 # Install dependencies
 npm install
