@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
 import ProductDetailPage from './pages/ProductDetailPage'
 import CartPage from './pages/CartPage'
-import WishlistPage from './pages/WishlistPage'
+import WishlistPage from './pages/WishListPage'
 import SignInPage from './pages/SignInPage'
 
 function App() {
