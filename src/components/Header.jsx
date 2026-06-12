@@ -14,7 +14,7 @@ function Header({ onSearch }) {
   const [searchOpen, setSearchOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const inputRef = useRef(null)
-.
+
   useEffect(() => {
     if (searchOpen && inputRef.current) {
       inputRef.current.focus()
